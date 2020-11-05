@@ -15,9 +15,11 @@ This makes the sensor not that suitbale for mobile sening applications where we 
 Thus, this script helps to get real-time data of the purple air sensor. This will make the sensor extremely suitable for mobile sensing applications like- Cars, Public Buses or Drones.
 
 Storing the JSON Data from the sensor : 
+
 By using this script, we can access the purple air sensor data in a JSON format locally using the IP address or hostname of the sensor and store it in a CSV file.
 
 The URL to get the live sensor data:
-http://<Sensor IP Address on the Local Network or Hostname>/json?live=true
+
+http:// Sensor IP Address on the Local Network or Hostname/json?live=true
   
 (where Sensor IP Address on the Local Network is the IP address assigned by your router to the sensor)
