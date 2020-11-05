@@ -23,3 +23,5 @@ The URL to get the live sensor data:
 http:// Sensor IP Address on the Local Network or Hostname/json?live=true
   
 (where Sensor IP Address on the Local Network is the IP address assigned by your router to the sensor)
+
+In order to store the Json data in CSV file, we first Normalize the JSON data into a flat table. We then save this dataframe to CSV file.
