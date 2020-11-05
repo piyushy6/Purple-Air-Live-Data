@@ -13,11 +13,12 @@ def logfilename():
 filename=logfilename()
 
 while True: 
-   url = "http://172.20.10.2/json?live=true"
+   url = "http://172.20.10.2/json?live=true"  
+  # (where Sensor IP Address on the Local Network is the IP address assigned by your router to the sensor, so you will have to replace it according to the IP address assigned to your sensor in the above URL)
+    
    PA_Data = requests.get(url=url)
    
   # To convert JSON data to dataframe type
- 
    df = json_normalize(PA_Data.json())
    print(df)
    
